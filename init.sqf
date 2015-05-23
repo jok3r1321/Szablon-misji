@@ -50,7 +50,7 @@ f_script_setTeamColours = [] execVM "f\setTeamColours\f_setTeamColours.sqf";
 // F3 - Fireteam Member Markers
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-[] spawn f_fnc_SetLocalFTMemberMarkers;
+// [] spawn f_fnc_SetLocalFTMemberMarkers;
 
 // ====================================================================================
 
@@ -73,10 +73,10 @@ if(isServer) then {
 // F3 - Automatic Body Removal
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-// f_var_removeBodyDelay = 180;
-// f_var_removeBodyDistance = 500;
-// f_var_doNotRemoveBodies = [];
-// [] execVM "f\removeBody\f_addRemoveBodyEH.sqf";
+ f_var_removeBodyDelay = 180;
+ f_var_removeBodyDistance = 1000;
+ f_var_doNotRemoveBodies = [];
+ [] execVM "f\removeBody\f_addRemoveBodyEH.sqf";
 
 // ====================================================================================
 
@@ -165,7 +165,7 @@ if(isServer) then {
 // F3 - Join Group Action
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-[false] execVM "f\groupJoin\f_groupJoinAction.sqf";
+// [false] execVM "f\groupJoin\f_groupJoinAction.sqf";
 
 // ====================================================================================
 
