@@ -11,7 +11,7 @@ sleep 2;
 while {f_var_mission_timer > 0} do {
 
 	// Broadcast remaining time to players
-	[["SafeStart",[format["Time Remaining: %1 min",f_var_mission_timer]]],"bis_fnc_showNotification",true] call BIS_fnc_MP;
+	[["SafeStart",[format["Pozostało: %1 min",f_var_mission_timer]]],"bis_fnc_showNotification",true] call BIS_fnc_MP;
 
 	uisleep 60; // Sleep 60 seconds
 
@@ -26,7 +26,7 @@ while {f_var_mission_timer > 0} do {
 //Once the mission timer has reached 0, disable the safeties
 if (f_var_mission_timer == 0) then {
 		// Broadcast message to players
-		[["SafeStartMissionStarting",["Mission starting now!"]],"bis_fnc_showNotification",true] call BIS_fnc_MP;
+		[["SafeStartMissionStarting",["Misja się zaczyna!"]],"bis_fnc_showNotification",true] call BIS_fnc_MP;
 
 		// Remotely execute script to disable safety for all selectable units
 		[[false],"f_fnc_safety",playableUnits + switchableUnits] call BIS_fnc_MP;
