@@ -14,7 +14,7 @@ _TypNumber = _this select 0;_TempArray = [];
 switch (_TypNumber) do
 {
 //-------------------------------------------------------------------------------------------------
-// REDFOR (A3)
+// REDFOR CSAT (A3)
   case 0:
   {
     _Unit_Pool_S = ["O_crew_F","O_Helipilot_F","O_Soldier_SL_F","O_soldier_AR_F","O_soldier_AR_F","O_soldier_exp_F","O_soldier_GL_F","O_soldier_GL_F","O_soldier_M_F","O_medic_F","O_soldier_AA_F","O_soldier_repair_F","O_Soldier_F","O_Soldier_F","O_soldier_LAT_F","O_soldier_LAT_F","O_soldier_lite_F","O_soldier_TL_F","O_soldier_TL_F"];
@@ -23,7 +23,7 @@ switch (_TypNumber) do
 	_Unit_Pool_A = ["O_Heli_Attack_02_F","O_Heli_Light_02_F","O_Heli_Light_02_armed_F"];
   };
 //-------------------------------------------------------------------------------------------------
-// BLUFOR (A3)
+// BLUFOR NATO (A3)
   case 1:
   {
     _Unit_Pool_S = ["B_crew_F","B_Helipilot_F","B_Soldier_SL_F","B_soldier_AR_F","B_soldier_AR_F","B_soldier_exp_F","B_soldier_GL_F","B_soldier_GL_F","B_soldier_AA_F","B_soldier_M_F","B_medic_F","B_soldier_repair_F","B_Soldier_F","B_Soldier_F","B_soldier_LAT_F","B_soldier_LAT_F","B_soldier_lite_F","B_soldier_TL_F","B_soldier_TL_F"];
@@ -32,7 +32,7 @@ switch (_TypNumber) do
     _Unit_Pool_A = ["B_Heli_Light_01_armed_F","B_Heli_Transport_01_camo_F","B_Heli_Light_01_F"];
   };
 //-------------------------------------------------------------------------------------------------
-// Independent (A3)
+// Independent FIA (A3)
   case 2:
   {
     _Unit_Pool_S = ["I_crew_F","I_helipilot_F","I_officer_F","I_Soldier_AT_F","I_Soldier_AA_F","I_Soldier_M_F","I_Soldier_GL_F","I_Soldier_exp_F","I_engineer_F","I_medic_F","I_Soldier_AR_F","I_Soldier_A_F"];
@@ -74,34 +74,17 @@ switch (_TypNumber) do
     _Unit_Pool_S = ["B_CDF_A3_Soldier_Crew","B_CDF_A3_Soldier_Pilot","B_CDF_A3_Soldier_GL","B_CDF_A3_Soldier_MG","B_CDF_A3_Soldier_AR","B_CDF_A3_Soldier_Medic","B_CDF_A3_Soldier_RPG"];
     _Unit_Pool_V = ["CDF_A3_BTR70","CDF_A3_UAZ_MG","CDF_A3_UAZ_SPG9","CDF_A3_Ural_ZU23"];
     _Unit_Pool_T = ["CDF_A3_BMP2","CDF_A3_T72"];
-    _Unit_Pool_A = ["CDF_A3_Mi17_rockets","CDF_A3_Mi17","CDF_A3_Mi_24v"];
+    _Unit_Pool_A = ["CDF_A3_Mi17_rockets","CDF_A3_Mi17"];
   };
-//-------------------------------------------------------------------------------------------------
-// ChDKZ (A3)
-  case 7:
-  {
-    _Unit_Pool_S = ["LOP_ChDKZ_Soldier_Crewman","LOP_ChDKZ_Soldier_Pilot","LOP_ChDKZ_Soldier_SL","LOP_ChDKZ_Soldier_AR","LOP_ChDKZ_Soldier_A_AR","LOP_ChDKZ_Soldier_AT","LOP_ChDKZ_Soldier_A_AT","LOP_ChDKZ_Soldier","LOP_ChDKZ_Soldier_Medic"];
-    _Unit_Pool_V = ["LOP_ChDKZ_BTR70","LOP_ChDKZ_URAL_open"];
-    _Unit_Pool_T = ["LOP_ChDKZ_BMD2","LOP_ChDKZ_T72BA","LOP_ChDKZ_BMP1","LOP_ChDKZ_ZSU234"];
-    _Unit_Pool_A = ["LOP_ChDKZ_Mi8","LOP_ChDKZ_Mi8MTW"];
-  };
+
 //-------------------------------------------------------------------------------------------------
 // TK (A3)
-  case 8:
+  case 7:
   {
     _Unit_Pool_S = ["B_TKA_A3_Soldier_Crew","B_TKA_A3_Soldier_Pilot","B_TKA_A3_Soldier_SL","B_TKA_A3_Soldier_MG","B_TKA_A3_Soldier_AMG","B_TKA_A3_Soldier_AR","B_TKA_A3_Soldier_LAT","B_TKA_A3_Soldier_AT","B_TKA_A3_Soldier_AAT"];
     _Unit_Pool_V = ["TKA_A3_M113","TKA_A3_UAZ_SPG9","TKA_A3_Ural_ZU23","TKA_A3_UAZ_MG","TKA_A3_BTR60"];
-    _Unit_Pool_T = ["TKA_A3_BMP2","TKA_A3_T34","TKA_A3_T55","TKA_A3_T72"];
+    _Unit_Pool_T = ["TKA_A3_BMP2","TKA_A3_T34","TKA_A3_T72"];
     _Unit_Pool_A = ["TKA_A3_Mi17","TKA_A3_Mi17_rockets"];
-  };
-//-------------------------------------------------------------------------------------------------
-// Taliby (A3)
-  case 9:
-  {
-    _Unit_Pool_S = ["LOP_AM_Soldier_TL","LOP_AM_Soldier_TL","LOP_AM_Soldier_TL","LOP_AM_Soldier_AR","LOP_AM_Soldier","LOP_AM_Soldier_AT","LOP_AM_Soldier_Medic","LOP_AM_Soldier_GL","LOP_AM_Soldier"];
-    _Unit_Pool_V = ["LOP_AM_Landrover_M2"];
-    _Unit_Pool_T = [];
-    _Unit_Pool_A = [];
   };
 //-------------------------------------------------------------------------------------------------
   Default
