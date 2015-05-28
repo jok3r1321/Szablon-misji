@@ -14,9 +14,11 @@
       </Key>
       <Key ID="STR_f_param_loadouts">
         <English> Loadouts </English>
+        <Polish> Wyposażenie </Polish>
       </Key>
       <Key ID="STR_f_param_timeOfDay">
         <English> Time of Day </English>
+        <Polish> Pora dnia </Polish>
 	<French> Heure de la journée </French>
       </Key>
       <Key ID="STR_f_param_timeOfDay_Option0">
@@ -85,31 +87,40 @@
       </Key>
       <Key ID="STR_f_param_weather">
         <English> Weather </English>
+        <Polish> Pogoda </Polish>
 	<French> Météo </English>
       </Key>
       <Key ID="STR_f_param_weather_Option0">
         <English> Clear (Calm)</English>
+        <Polish> Bezchmurna (bez wiatru)</Polish>
       </Key>
       <Key ID="STR_f_param_weather_Option1">
         <English> Clear (Light Winds)</English>
+        <Polish> Bezchmurna (lekki wiatr)</Polish>
       </Key>
       <Key ID="STR_f_param_weather_Option2">
         <English> Clear (Strong Winds)</English>
+        <Polish> Bezchmurna (silny wiatr)</Polish>
       </Key>
       <Key ID="STR_f_param_weather_Option3">
         <English> Overcast (Calm)</English>
+        <Polish> Zachmurzenia (bez wiatru)</Polish>
       </Key>
       <Key ID="STR_f_param_weather_Option4">
         <English> Overcast (Light Winds)</English>
+        <Polish> Zachmurzenia (lekki waitr)</Polish>
       </Key>
       <Key ID="STR_f_param_weather_Option5">
         <English> Overcast (Strong Winds)</English>
+        <Polish> Zachmurzenia (silny wiatr)</Polish>
       </Key>
       <Key ID="STR_f_param_weather_Option6">
         <English> Rain (Light Winds)</English>
+        <Polish> Deszcz (lekki wiatr)</Polish>
       </Key>
       <Key ID="STR_f_param_weather_Option7">
         <English> Rain (Strong Winds)</English>
+        <Polish> Deszcz (silny wiatr)</Polish>
       </Key>
       <Key ID="STR_f_param_weather_Option8">
         <English> Storm </English>
@@ -230,18 +241,22 @@
       </Key>
       <Key ID="STR_f_JIP_reinforcementOptionsAction">
         <English> Select Reinforcement Options</English>
+        <Polish> Wlacz menu wsparcia</Polish>
       </Key>
       <Key ID="STR_f_param_mission_timer">
         <English> Safe Start (mins) </English>
+        <Polish> Bezpieczny start (minuty) </Polish>
       </Key>
       <Key ID="STR_f_param_mission_timer_off">
         <English> Off </English>
+        <Polish> Wylacz </Polish>
       </Key>
       <Key ID="STR_f_param_caching">
         <English> AI Caching</English>
       </Key>
       <Key ID="STR_f_param_caching_Option0">
         <English> Off </English>
+        <Polish> Wylacz </Polish>
         <German> Aus </German>
       </Key>
        <Key ID="STR_f_param_caching_Option1">
