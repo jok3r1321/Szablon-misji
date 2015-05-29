@@ -13,13 +13,13 @@ KitPickInit =
     private "_idx";
 
     _idx = COMBO lbAdd "Squad Leader"; COMBO lbSetData [_idx, "ftl"];
-	_idx = COMBO lbAdd "Medic"; COMBO lbSetData [_idx, "m"];
+	_idx = COMBO lbAdd "Mechanic"; COMBO lbSetData [_idx, "eng"];
     COMBO lbAdd "----";
 	
     _idx = COMBO lbAdd "Fire Team Leader"; COMBO lbSetData [_idx, "ftl"];
     _idx = COMBO lbAdd "Automatic Rifleman"; COMBO lbSetData [_idx, "ar"];
     _idx = COMBO lbAdd "Asst. Automatic Rifleman"; COMBO lbSetData [_idx, "aar"];
-    _idx = COMBO lbAdd "Rifleman (AT)"; COMBO lbSetData [_idx, "rat"];
+ 	_idx = COMBO lbAdd "Medic"; COMBO lbSetData [_idx, "m"];
 	_idx = COMBO lbAdd "Rifleman"; COMBO lbSetData [_idx, "r"];
     COMBO lbAdd "----";
 
