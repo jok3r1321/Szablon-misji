@@ -16,45 +16,47 @@ KitPickInit =
 	_idx = COMBO lbAdd "Medic"; COMBO lbSetData [_idx, "m"];
     COMBO lbAdd "----";
 	
-    _idx = COMBO lbAdd "Fire Team Leader"; COMBO lbSetData [_idx, "ftl"];
-    _idx = COMBO lbAdd "Automatic Rifleman"; COMBO lbSetData [_idx, "ar"];
-    _idx = COMBO lbAdd "Asst. Automatic Rifleman"; COMBO lbSetData [_idx, "aar"];
-    _idx = COMBO lbAdd "Rifleman (AT)"; COMBO lbSetData [_idx, "rat"];
-	_idx = COMBO lbAdd "Rifleman"; COMBO lbSetData [_idx, "r"];
+    _idx = COMBO lbAdd "Dowódca odziału"; COMBO lbSetData [_idx, "ftl"];
+    _idx = COMBO lbAdd "Mechanik"; COMBO lbSetData [_idx, "eng"];
     COMBO lbAdd "----";
 
-    _idx = COMBO lbAdd "Pilot"; COMBO lbSetData [_idx, "pp"];
-	_idx = COMBO lbAdd "Co-Pilot (repair)"; COMBO lbSetData [_idx, "pcc"];
+    _idx = COMBO lbAdd "Dowódca drużyny"; COMBO lbSetData [_idx, "ftl"];
+    _idx = COMBO lbAdd "Strzelec RKM"; COMBO lbSetData [_idx, "ar"];
+    _idx = COMBO lbAdd "Amunicyjny RKM"; COMBO lbSetData [_idx, "aar"];
+    _idx = COMBO lbAdd "Strzelec AT"; COMBO lbSetData [_idx, "rat"];
+    _idx = COMBO lbAdd "Medyk"; COMBO lbSetData [_idx, "m"];
     COMBO lbAdd "----";
-	
-    _idx = COMBO lbAdd "Vehicle Commander"; COMBO lbSetData [_idx, "vc"];
-    _idx = COMBO lbAdd "Vehicle Gunner"; COMBO lbSetData [_idx, "vg"];
-	_idx = COMBO lbAdd "Vehicle Driver (repair)"; COMBO lbSetData [_idx, "vd"];
+
+    _idx = COMBO lbAdd "Dowódca pojazdu"; COMBO lbSetData [_idx, "vc"];
+    _idx = COMBO lbAdd "Strzelec"; COMBO lbSetData [_idx, "vg"];
+	_idx = COMBO lbAdd "Kierowca"; COMBO lbSetData [_idx, "vd"];
 	COMBO lbAdd "----";
-	
-    _idx = COMBO lbAdd "Team Leader"; COMBO lbSetData [_idx, "ftl"];
-    _idx = COMBO lbAdd "Medium MG Gunner"; COMBO lbSetData [_idx, "mmgg"];
-	_idx = COMBO lbAdd "Medium MG Assistant"; COMBO lbSetData [_idx, "mmgag"];
+
+    _idx = COMBO lbAdd "Pilot"; COMBO lbSetData [_idx, "pp"];
+    _idx = COMBO lbAdd "Strzelec"; COMBO lbSetData [_idx, "pcc"];
 	COMBO lbAdd "----";
-	
-    _idx = COMBO lbAdd "Team Leader"; COMBO lbSetData [_idx, "ftl"];
-    _idx = COMBO lbAdd "Medium AT Gunner"; COMBO lbSetData [_idx, "matg"];
-	_idx = COMBO lbAdd "Medium AT Assistant"; COMBO lbSetData [_idx, "matag"];
+
+    _idx = COMBO lbAdd "Dowódca sekcji"; COMBO lbSetData [_idx, "ftl"];
+    _idx = COMBO lbAdd "Strzelec MMG"; COMBO lbSetData [_idx, "mmgg"];
+	_idx = COMBO lbAdd "Amunicyjny MMG"; COMBO lbSetData [_idx, "mmgag"];
 	COMBO lbAdd "----";
-	
-    _idx = COMBO lbAdd "Team Leader"; COMBO lbSetData [_idx, "ftl"];
-    _idx = COMBO lbAdd "Mortar Gunner"; COMBO lbSetData [_idx, "mtrg"];
-	_idx = COMBO lbAdd "Mortar Assistant"; COMBO lbSetData [_idx, "mtrag"];
+
+    _idx = COMBO lbAdd "Dowódca sekcji"; COMBO lbSetData [_idx, "ftl"];
+    _idx = COMBO lbAdd "Strzelec MAT"; COMBO lbSetData [_idx, "matg"];
+	_idx = COMBO lbAdd "Amunicyjny MAT"; COMBO lbSetData [_idx, "matag"];
 	COMBO lbAdd "----";
-	
-    _idx = COMBO lbAdd "Team Leader"; COMBO lbSetData [_idx, "ftl"];
-    _idx = COMBO lbAdd "Medium AA Gunner"; COMBO lbSetData [_idx, "msamg"];
-	_idx = COMBO lbAdd "Medium AA Assistant"; COMBO lbSetData [_idx, "msamag"];
+
+    _idx = COMBO lbAdd "Dowódca sekcji"; COMBO lbSetData [_idx, "ftl"];
+    _idx = COMBO lbAdd "Strzelec HMG"; COMBO lbSetData [_idx, "hmgg"];
+	_idx = COMBO lbAdd "Amunicyjny HMG"; COMBO lbSetData [_idx, "hmgag"];
 	COMBO lbAdd "----";
-	
-    _idx = COMBO lbAdd "Team Leader"; COMBO lbSetData [_idx, "ftl"];
-    _idx = COMBO lbAdd "Heavy MG Gunner"; COMBO lbSetData [_idx, "hmgg"];
-	_idx = COMBO lbAdd "Heavy MG Assistant"; COMBO lbSetData [_idx, "hmgag"];
+
+    _idx = COMBO lbAdd "Dowódca sekcji"; COMBO lbSetData [_idx, "ftl"];
+    _idx = COMBO lbAdd "Strzelec AA"; COMBO lbSetData [_idx, "msamg"];
+	_idx = COMBO lbAdd "Amunicyjny AA"; COMBO lbSetData [_idx, "msamag"];
+	COMBO lbAdd "----";
+
+    _idx = COMBO lbAdd "Jendostki specjalne"; COMBO lbSetData [_idx, "div"];
 	
     _sel = player getVariable "KitPicker_Selection";
     if (!isNil '_sel') then
