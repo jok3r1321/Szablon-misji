@@ -769,8 +769,8 @@ switch (_typeofUnit) do
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_pistolmag,2];
 		_unit addweapon _pistol;
-		_unit addmagazines [_satchel,2];
-		_unit addItem "MineDetector";
+		_unit addItem "ItemGPS";
+		_unit assignItem "ItemGPS";
 		["eng"] call _backpack;
 	};
 
