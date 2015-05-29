@@ -5,9 +5,9 @@
 
 class Header
 {
-	gameType = Coop;
-	minPlayers = 1;
-	maxPlayers = 457;
+	gameType = Coop; // Dodaj jaki to rodzaj rozgrywki PvP lub COOP
+	minPlayers = 1; // Minimalna liczba graczy by rozegrac misje
+	maxPlayers = 457; // Maksymalna możliwa liczba graczy na misji
 };
 
 // ============================================================================================
@@ -15,11 +15,11 @@ class Header
 // F3 - Loading Screen
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-onLoadName = "";
-onLoadMission = "sds-polska.pl";
-author = "Przemro";
-loadScreen = "logo.paa";
-overviewPicture = "logo2.jpg";
+onLoadName = ""; // Dodaj nazwe misji np. "Operacja Baranek"
+onLoadMission = "sds-polska.pl"; // Nie zmieniaj
+author = "Przemro"; // Dodaj autora lub autorów misji
+loadScreen = "logo.paa"; // Nie zmieniaj
+overviewPicture = "logo2.jpg"; // Tutaj możesz dodać obrazek który bdzie si wywietlal jak misja bedzie wybierana na serwerze
 
 // ============================================================================================
 
@@ -34,7 +34,7 @@ enableDebugConsole = 1;
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
 respawn = 3;
-respawndelay = 3;
+respawndelay = 10;
 respawnOnStart = 0;
 respawnTemplates[] = {"Seagull","f_spectator","f_JIP"};
 
@@ -189,7 +189,7 @@ class Params
             title = "$STR_f_param_mission_timer";
             values[] = {0,1,2,3,4,5,6,7,8,9,10,15};
             texts[] = {"$STR_f_param_mission_timer_off","1","2","3","4","5","6","7","8","9","10","15"};
-            default = 0;
+            default = 15;
             code = "f_param_mission_timer = %1";
     };
 
@@ -298,7 +298,7 @@ class CfgDebriefing
 {
 	class End1
 	{
-		title = "Ending #1";
+		title = "Misja zakończona sukcesem"; // Misja udala sie, wykonalismy wszystkie cele bez wiekszych strat
 		subtitle = "";
 		description = "*** Insert debriefing #1 here. ***";
 		// pictureBackground = "";
@@ -308,7 +308,7 @@ class CfgDebriefing
 
 	class End2
 	{
-		title = "Ending #2";
+		title = "Misja zakończona"; // Misja udala sie, jednak ponieslimy znaczne straty
 		subtitle = "";
 		description = "*** Insert debriefing #2 here. ***";
 		// pictureBackground = "";
@@ -318,7 +318,7 @@ class CfgDebriefing
 
 	class End3
 	{
-		title = "Ending #3";
+		title = "Misja nieudana"; // Misje nieudana, nie udalo nam sie wykonac zadan, ale wycofalismy sie do bazy lub do bezpiecznego terenu
 		subtitle = "";
 		description = "*** Insert debriefing #3 here. ***";
 		// pictureBackground = "";
@@ -328,7 +328,7 @@ class CfgDebriefing
 
 	class End4
 	{
-		title = "Ending #4";
+		title = "Porażka"; // Misja nieudana, wszyscy zgineli
 		subtitle = "";
 		description = "*** Insert debriefing #4 here. ***";
 		// pictureBackground = "";
@@ -338,7 +338,7 @@ class CfgDebriefing
 
 	class End5
 	{
-		title = "Ending #5";
+		title = "Ending #5"; // Inna mozliwosc
 		subtitle = "";
 		description = "*** Insert debriefing #5 here. ***";
 		// pictureBackground = "";
@@ -348,7 +348,7 @@ class CfgDebriefing
 
 	class End6
 	{
-		title = "Ending #6";
+		title = "Ending #6"; // Inna mozliwosc
 		subtitle = "";
 		description = "*** Insert debriefing #6 here. ***";
 		// pictureBackground = "";
